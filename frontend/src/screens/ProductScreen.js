@@ -16,7 +16,7 @@ function ProductScreen({ match, history }) {
 
     useEffect(() => {
         dispatch(listProductDetails(match.params.id))
-        console.log(qty)
+        console.log('qty')
     }, [dispatch, match])
     
     const addToCartHandler = () => {
